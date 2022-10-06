@@ -1,0 +1,22 @@
+.wf-node {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    overflow: hidden;
+    height: 50px;
+}
+
+.node-param-info {
+    width: 8px;
+    height: 100px;
+    background-color: black;
+    display: block;
+}
+
+.node-param-info.in {
+    background-color: cadetblue;
+}
+.node-param-info.out {
+    background-color: coral;
+}
